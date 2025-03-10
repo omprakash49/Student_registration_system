@@ -1,6 +1,9 @@
 * {
-    box-sizing: border-box;
-    
+    box-sizing: border-box; 
+}
+
+html{
+    height: 100%;
 }
 
 
@@ -8,26 +11,56 @@ body {
     font-family: 'Courier New', Courier, monospace;
     color: white;
     /* background-image: linear-gradient(to right top, #ef745c, #34073d); */
-    background-image: linear-gradient(to right top, #0e1c26, #2a454b, #294861);
-    background-repeat: no-repeat; 
-
+    background-image: linear-gradient(to right top, #0e1c26, #2a454b, #294861) ;
+    background-repeat: no-repeat;    
 }
 
 header {
+    margin: 20px;
     text-align: center;
 }
 
 
-.display {
-    border: 2px solid white;
-    margin:10px 0px ;
-    padding: 20px 30px;
+
+.student_register_system{
+    display: flex;
+    justify-content: space-around;
+    
 }
+
+form{
+    
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    height: 420px;
+    
+}
+
+
+
+.student_list {
+    border: 2px solid white;
+    margin:10px 0px ;  
+    padding: 20px 30px;
+    scrollbar-width: thin;
+    scrollbar-color: white rgba(0, 0, 0, 0);
+    max-height: 420px;
+    overflow-y: auto;
+}
+
 table{
     margin: auto;
     border-collapse: collapse;
 }
+
+
 td, th {
     border: 1px solid white;
     padding: 10px 20px;
 }
+
+
+    
