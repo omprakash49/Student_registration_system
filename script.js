@@ -21,7 +21,7 @@ function studentData(e) {
     if (localStorage.getItem("latestKey"))
         studentNo = parseInt(localStorage.getItem("latestKey"));
     
-    const students = [];
+    // const students = []; 
 
     // store form data to localstorage 
     student = [stuName, stuId, email, number];
